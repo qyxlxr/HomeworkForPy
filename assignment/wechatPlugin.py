@@ -69,9 +69,9 @@ def openWechat():
 
 def BaiduOCR(imagefile):
     # 百度OCR识别
-    APP_ID = '16205886'
-    API_KEY = '11cgmBlpYydUMCTIe0MzcecW'
-    SECRET_KEY = 'teW5LS8oR7dwSkGYoBmHC1ua51c6DhC2'
+    APP_ID = 'XXXXXXXX'
+    API_KEY = 'XXXXXXXXX'
+    SECRET_KEY = 'XXXXXXXXXXXX'
     client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
     """ 读取图片 """
